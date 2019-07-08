@@ -1,3 +1,7 @@
+hr {
+    border-top: 1px solid #343a40;
+}
+
 .header {
     background-color: #343a40;
     color: white;
@@ -18,4 +22,12 @@
 
 .header a:hover {
     color: white !important;
+}
+
+.title, .subtitle {
+    color: #343a40;
+}
+
+.title {
+    text-transform: uppercase;
 }
