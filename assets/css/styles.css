@@ -24,10 +24,92 @@ hr {
     color: white !important;
 }
 
-.title, .subtitle {
+.details {
+    color: #58677c;
+}
+
+.title, .subtitle, .subtitle-aside {
     color: #343a40;
+    font-weight: 700;
 }
 
 .title {
+    font-size: 1.25rem;
     text-transform: uppercase;
+}
+
+.subtitle-aside, .skills-title, .education-title, .language-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.skill-title, .education-place, .language-level {
+    color: #434E5E;
+    font-size: 0.8125rem;
+    font-weight: 400;
+}
+
+.skill-title {
+    margin-top: .7rem;
+    margin-bottom: .4rem;
+}
+
+.skills-title {
+    color: #343a40;
+}
+
+.progress-skill {
+    height: .7rem;
+}
+
+.progress-skill .progress-bar {
+    background-color: #343a40;
+}
+
+.education-title, .education-place {
+    margin-bottom: 0px;
+}
+
+.education-period {
+    color: #aab4c3;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.language-title {
+    margin-bottom: .5rem;
+}
+
+.experience-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.experience-title {
+    font-size: 1.125rem;
+    color: #434E5E;
+}
+
+.experience-period {
+    font-size: .875rem;
+    color: #aab4c3;
+}
+
+.experience-place {
+    color: #58677c;
+    font-size: .875rem;
+    font-weight: 500;
+
+}
+
+.experience-achievements, .experience-technologies {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.badge-technology {
+    color: #f8f9fa;
+    background-color: #212529;
 }
